@@ -1,5 +1,5 @@
 # DigitalClock and Vowels Finder Pages
-## These two projects are two of the projects worked on weekly.
+## These projects are two of the projects worked on weekly.
 
 ### In this project, I applied setInterval() function to make digital Clock and worked on asynchron programing
 ![Digital Clock Page](./img/Digital-Clock.gif "Digital Clock Page")
