@@ -1,7 +1,16 @@
+.main_container {
+    width: 50rem;
+    border: 1px solid rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .container {
     border: 2px solid yellowgreen;
     border-radius: 1rem;
-    width: 10rem;
+    width: 30%;
     display: flex;
     flex-direction: row;
     gap: .5rem;
@@ -18,6 +27,24 @@
     font-size: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(169, 230, 49);
+}
+
+.hour {
+    margin-left: 1rem;
+}
+
+.second {
+    margin-right: 1rem;
+}
+
+/* .colon {
+    align-self: flex-start;
+} */
+
+.date {
+    background-color: rgb(31, 30, 30);
+    border-radius: .25rem;
+    color: whitesmoke;
 }
 
 
