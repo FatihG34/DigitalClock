@@ -5,6 +5,11 @@ const btn = document.querySelector("button");
 btn.addEventListener("click", () => {
     // message.innerHTML = vowels(textarea.value)
     message.innerHTML = vowelsRegegx(textarea.value)
+});
+textarea.addEventListener(`keydown`, (e) => {
+    if (e.key == `Enter`) {
+        btn.click();
+    }
 })
 
 const vowels = (sentence) => {
@@ -20,5 +25,5 @@ const vowels = (sentence) => {
 
 const vowelsRegegx = (str) => {
     let newStr = str.match(/[aeiou]/gi);
-    return newStr === null ? `There are no vowels in ${str}` : `There are ${newStr.length} vowels in ${str} `;
+    return newStr === null ? `There are no vowels in ${str}` : `There are <strong>${newStr.length}</strong> vowels in -- <span>${str}</span> -- `;
 }
