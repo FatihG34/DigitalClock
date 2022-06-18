@@ -1,0 +1,35 @@
+.container {
+    border: 2px solid yellowgreen;
+    border-radius: 1rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(31, 30, 30);
+    box-sizing: border-box;
+}
+
+.hour,
+.minute,
+.second,
+.colon {
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(169, 230, 49);
+}
+
+
+@media screen and (mx-width:576px) {
+    .container {
+        border: 2px solid yellowgreen;
+        border-radius: 1rem;
+        width: 8rem;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        align-items: center;
+        background-color: rgb(31, 30, 30);
+    }
+}
